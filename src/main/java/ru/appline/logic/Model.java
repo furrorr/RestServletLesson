@@ -15,7 +15,7 @@ public class Model implements Serializable {
 
     private Model() {
         model = new HashMap<>();
-        model.put(1, new User("Sergey", "Ageev", 100000));
+        model.put(1, new User("Victor", "Char", 100000));
         model.put(2, new User("Anton", "Osipov", 90000));
         model.put(3, new User("Zoya", "Andreeva", 50000));
         model.put(4, new User("Katya", "Tropina", 150000));
